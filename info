@@ -1,0 +1,34 @@
+
+const showOthersInfoPersonelle = document.querySelector('.show-others-info-personelle');
+const containerForm = document.querySelector('.container-form');
+const formulaire = document.createElement('form');
+console.log(formulaire)
+const photo = document.createElement('div');
+photo.classList.add('photo');
+formulaire.classList.add('formulaire');
+containerForm.appendChild(photo);
+containerForm.appendChild(formulaire);
+
+
+
+console.log(containerForm)
+
+
+showOthersInfoPersonelle.addEventListener('click', ()=>{
+    containerForm.style.display ="block";
+    containerForm.style.transition ="all 3s ease";
+    containerForm.classList.toggle("question-clicked");
+    input1 = document.createElement('input');
+    input2 = document.createElement('input');
+    input3 = document.createElement('input');
+    input4 = document.createElement('input');
+    input5 = document.createElement('input');
+    input6 = document.createElement('input');
+    formulaire.appendChild(input1)
+    formulaire.appendChild(input2)
+    formulaire.appendChild(input3)
+    formulaire.appendChild(input4)
+    formulaire.appendChild(input5)
+    formulaire.appendChild(input6)
+
+})

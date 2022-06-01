@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-size: 15px;
+}
+h1{
+    font-size: 25px;
+}
+label{
+    font-size: 16px;
+}
+
+.container{
+    background-color: #FFF;
+    display: flex;
+}
+.first-under-container{
+    width: 50%;
+    height: auto;
+    background-color: rgb(247, 242, 242);
+} 
+.second-under-container{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resultat-information{
+    height: 590px;
+    width: 95%;
+    background-color: rgb(91, 95, 87);
+}
+.all-user-personnel-info{
+    height: auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.personnel-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0 30px;
+}
+.show-others-info-personelle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+    margin: 20px 0;
+}
+.quitter{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    display: none;
+    border: 1px solid rgb(29, 46, 197);
+}
+.quitter img{
+    transform: rotate(180deg);
+}
+.user-info-basic{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 4px 0 1px;   
+}
+.user-firstName{
+    margin: 0 10px;
+}
+.user-lastName{
+    margin: 0 10px;
+    /* font-size: 1.4rem; */
+}
+.user-contact-info{
+    display: flex;
+    font-size: 0.8rem;
+
+}
+.user-info-adress{
+    font-size: 0.8rem;;
+}
+.user-info-email{
+    margin-right: 10px;
+    font-size: 0.8rem;
+}
+.user-profil{
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+/* ////JAVASCRIPT// */
+.container-form{
+    width: 100%;
+    transition: all 10s ease;
+    display: none;
+}
+
+.container-form input{
+    outline: none;
+    border: 0.2px solid rgba(72, 72, 185, 0.2);
+    height: 35px;
+    width: 100%;
+    padding: 0 5px;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    border-radius: 20px;
+}
+
+form{
+    width: 90%;
+    margin: auto;
+}
+.nameFistNom{
+    display: flex;justify-content: space-between;
+
+}
+.namebloc{
+    width: 50%;
+    margin-right: 10px;
+}
+.famillyNamebloc{
+    width: 50%;
+    margin-left: 10px;
+}
+figure{
+    height: 97px;
+    width: 110px;
+    background-color: rgb(231, 178, 178);
+    margin-right: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.classmentImage{
+    display: flex;
+}
+.fa-camera{
+
+}
