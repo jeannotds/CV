@@ -109,6 +109,19 @@ label{
     width: 100%;
     transition: all 10s ease;
     display: none;
+    transform: translateY(-400px);
+    /* background-color: red; */
+    /* transform: rotate(); */
+    opacity: 0;
+}
+.container-formjs{
+    width: 100%;
+    transition: all 10s ease;
+    display: none;
+    transition: all 10s ease;
+    transform: translateY(0);
+    opacity: 1;
+
 }
 
 .container-form input{
